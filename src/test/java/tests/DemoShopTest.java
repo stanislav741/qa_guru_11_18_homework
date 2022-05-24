@@ -15,7 +15,7 @@ import static org.hamcrest.Matchers.not;
 public class DemoShopTest extends TestBase {
 
     @Test
-    void wishlistCreateAndClear() {
+    void guestWishlistCreateAndClear() {
 
         //Extracting an user cookie for the session
         String cookieNopCustomer =
